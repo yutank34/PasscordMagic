@@ -8,27 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    var now = Date()
     var body: some View {
         VStack {
-            Text("12:00")
+            Text(getTime())
+                .font(.system(size: 58))
             Text(getDate())
+            Spacer()
         }
+        .foregroundColor(.white)
+        .background(Color.black)
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height, alignment: .center)
     }
     
     func getDate() -> String {
         let f = DateFormatter()
         f.dateFormat = "M月d日 EEE曜日"
         f.locale = Locale(identifier: "ja_JP")
-        let now = Date()
         return f.string(from: now)
     }
     
-    func getDef() -> String {
+    func getTime() -> String {
         let f = DateFormatter()
-        f.timeStyle = .full
-        f.dateStyle = .full
+        f.timeStyle = .short
+        f.dateStyle = .none
         f.locale = Locale(identifier: "ja_JP")
-        let now = Date()
         return f.string(from: now)
     }
 }
