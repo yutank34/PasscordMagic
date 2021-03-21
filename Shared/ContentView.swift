@@ -17,8 +17,9 @@ struct ContentView: View {
             Spacer()
         }
         .foregroundColor(.white)
+        .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .background(Color.black)
-        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height, alignment: .center)
+
     }
     
     func getDate() -> String {
