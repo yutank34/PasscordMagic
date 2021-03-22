@@ -13,6 +13,7 @@ struct ContentView: View {
         VStack {
             Text(getTime())
                 .font(.system(size: 58))
+                .padding(.top, 30)
             Text(getDate())
             Spacer()
         }
