@@ -15,6 +15,8 @@
 		A51AA2F9259F5BC2007429DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AA2CE259F5BC0007429DB /* ContentView.swift */; };
 		A51AA2FA259F5BC2007429DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51AA2CF259F5BC1007429DB /* Assets.xcassets */; };
 		A51AA2FB259F5BC2007429DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51AA2CF259F5BC1007429DB /* Assets.xcassets */; };
+		A5652D4E260A358D009091F5 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D4D260A358D009091F5 /* NumberView.swift */; };
+		A5652D4F260A358D009091F5 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D4D260A358D009091F5 /* NumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		A51AA2EF259F5BC2007429DB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51AA2F3259F5BC2007429DB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A51AA2F5259F5BC2007429DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5652D4D260A358D009091F5 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				A51AA2CD259F5BC0007429DB /* PasscordMagicApp.swift */,
 				A51AA2CE259F5BC0007429DB /* ContentView.swift */,
 				A51AA2CF259F5BC1007429DB /* Assets.xcassets */,
+				A5652D4D260A358D009091F5 /* NumberView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -310,6 +314,7 @@
 			files = (
 				A51AA2F8259F5BC2007429DB /* ContentView.swift in Sources */,
 				A51AA2F6259F5BC2007429DB /* PasscordMagicApp.swift in Sources */,
+				A5652D4E260A358D009091F5 /* NumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			files = (
 				A51AA2F9259F5BC2007429DB /* ContentView.swift in Sources */,
 				A51AA2F7259F5BC2007429DB /* PasscordMagicApp.swift in Sources */,
+				A5652D4F260A358D009091F5 /* NumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
