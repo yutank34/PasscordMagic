@@ -12,22 +12,26 @@ struct NumberView: View {
     let alphabet: String?
     
     var body: some View {
-        ZStack {
-            Circle()
-                .fill(Color.gray)
-            VStack {
-                Text(String(number))
-                    .font(.system(size: 28))
-                if let alphabet = alphabet ?? "" {
-                    Text(alphabet)
-                        .font(.system(size: 12))
+        Button(action: {
+            print("button topped.")
+        }) {
+                ZStack {
+                    Circle()
+                        .fill(Color.gray)
+                    VStack {
+                        Text(String(number))
+                            .font(.system(size: 28))
+                        if let alphabet = alphabet ?? "" {
+                            Text(alphabet)
+                                .font(.system(size: 12))
+                        }
+                    }
+                    .foregroundColor(.white)
                 }
-            }
-            .foregroundColor(.white)
+                .frame(width: 70, height: 70)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 5)
         }
-        .frame(width: 70, height: 70)
-        .padding(.horizontal, 10)
-        .padding(.vertical, 5)
     }
 }
 
