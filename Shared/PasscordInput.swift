@@ -27,13 +27,15 @@ struct PasscordInput: View {
                 NumberView(number: 9, alphabet: "WXYZ")
             }
             NumberView(number: 0, alphabet: nil)
-            HStack {
+            HStack(alignment: .center, spacing: 120) {
                 Text("Emergency")
-                Spacer()
                 Text("Cancel")
             }
         }
-        .frame(width: 300, height: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .background(Color.black)
+        .foregroundColor(.white)
     }
 }
 
