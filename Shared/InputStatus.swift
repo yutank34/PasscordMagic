@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct InputStatus: View {
-    @State var inputs = [false, false, false, false]
+    @EnvironmentObject var inputs: InputsManager
     var body: some View {
         HStack {
-            ForEach(0..<inputs.count) { num in
-                Circle()
-                    .stroke(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, lineWidth: 2)
+            ForEach(0..<4) { num in
+                if inputs.counts > num {
+                    Circle()
+                        .fill(Color.blue)
+                } else {
+                    Circle()
+                        .stroke(Color.blue, lineWidth: 2)
+                }
+
             }
         }
         .frame(width: 200, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -21,8 +27,25 @@ struct InputStatus: View {
     }
 }
 
+
+class InputsManager: ObservableObject {
+    @Published var counts = 0
+    
+    func countUp() {
+        counts += 1
+    }
+    
+    func countDown() {
+        counts -= 1
+    }
+    
+    func reset() {
+        counts = 0
+    }
+}
+
 struct InputStatus_Previews: PreviewProvider {
     static var previews: some View {
-        InputStatus()
+        InputStatus().environmentObject(InputsManager())
     }
 }
