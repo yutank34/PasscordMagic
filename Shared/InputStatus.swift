@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct InputStatus: View {
+    @State var inputs = [false, false, false, false]
     var body: some View {
         HStack {
-            Circle()
-                .stroke(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, lineWidth: 2)
-            Circle()
-            Circle()
-            Circle()
+            ForEach(0..<inputs.count) { num in
+                Circle()
+                    .stroke(/*@START_MENU_TOKEN@*/Color.blue/*@END_MENU_TOKEN@*/, lineWidth: 2)
+            }
         }
         .frame(width: 200, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .foregroundColor(.blue)
