@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct NumberView: View {
+    @EnvironmentObject var inputs: InputsManager
+    
     let number: Int
     let alphabet: String?
     
     var body: some View {
         Button(action: {
-            print("button topped.")
+            inputs.countUp()
         }) {
                 ZStack {
                     Circle()

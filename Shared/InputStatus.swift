@@ -14,16 +14,16 @@ struct InputStatus: View {
             ForEach(0..<4) { num in
                 if inputs.counts > num {
                     Circle()
-                        .fill(Color.blue)
+                        .fill(Color.white)
                 } else {
                     Circle()
-                        .stroke(Color.blue, lineWidth: 2)
+                        .stroke(Color.white, lineWidth: 2)
                 }
 
             }
         }
         .frame(width: 200, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        .foregroundColor(.blue)
+        .background(Color.black)
     }
 }
 

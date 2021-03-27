@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var now = Date()
+    @State var isPresentedSubView = false
     var body: some View {
         VStack {
             Text(getTime())
@@ -16,11 +17,21 @@ struct ContentView: View {
                 .padding(.top, 30)
             Text(getDate())
             Spacer()
+            Button(action: {
+                self.isPresentedSubView.toggle()
+            }) {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+            }
+            .foregroundColor(.white)
+            .fullScreenCover(isPresented: $isPresentedSubView) {
+                PasscordInput()
+                    .environmentObject(InputsManager())
+            }
         }
         .foregroundColor(.white)
         .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .background(Color.black)
-
+        
     }
     
     func getDate() -> String {
