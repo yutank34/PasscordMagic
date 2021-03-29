@@ -11,7 +11,7 @@ struct PasscordInput: View {
     @EnvironmentObject var inputs: InputsManager
     var body: some View {
         if inputs.counts == 4 {
-            exit(1)
+            exit(0)
         } else {
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 24) {
                 Text("Touch ID or Enter Passcode")
