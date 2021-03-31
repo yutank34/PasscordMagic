@@ -20,16 +20,17 @@ struct ContentView: View {
             Button(action: {
                 self.isPresentedSubView.toggle()
             }) {
-                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                Text("Press home to unlock")
             }
             .foregroundColor(.white)
             .fullScreenCover(isPresented: $isPresentedSubView) {
                 PasscordInput()
                     .environmentObject(InputsManager())
             }
+            Text()
         }
         .foregroundColor(.white)
-        .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
         .background(Color.black)
         
     }
