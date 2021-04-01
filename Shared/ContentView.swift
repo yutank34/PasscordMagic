@@ -11,7 +11,7 @@ struct ContentView: View {
     var now = Date()
     @State var isPresentedSubView = false
     var body: some View {
-        VStack {
+        VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 2) {
             Text(getTime())
                 .font(.system(size: 58))
                 .padding(.top, 30)
@@ -27,7 +27,9 @@ struct ContentView: View {
                 PasscordInput()
                     .environmentObject(InputsManager())
             }
-            Text()
+            Text("●　■")
+                .font(.system(size: 10))
+                .padding(.bottom, 2)
         }
         .foregroundColor(.white)
         .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
