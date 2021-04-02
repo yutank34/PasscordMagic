@@ -27,7 +27,7 @@ struct ContentView: View {
                 PasscordInput()
                     .environmentObject(InputsManager())
             }
-            Text("●　■")
+            Text("● ◇")
                 .font(.system(size: 10))
                 .padding(.bottom, 2)
         }
