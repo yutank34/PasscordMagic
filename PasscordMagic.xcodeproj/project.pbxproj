@@ -21,6 +21,8 @@
 		A5652D56260A37F8009091F5 /* PasscordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D54260A37F8009091F5 /* PasscordInput.swift */; };
 		A5652D5C260DA3E5009091F5 /* InputStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D5B260DA3E5009091F5 /* InputStatus.swift */; };
 		A5652D5D260DA3E5009091F5 /* InputStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D5B260DA3E5009091F5 /* InputStatus.swift */; };
+		A5CCE6D6261A305A0012754C /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6D5261A305A0012754C /* TutorialView.swift */; };
+		A5CCE6D7261A305A0012754C /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6D5261A305A0012754C /* TutorialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		A5652D4D260A358D009091F5 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 		A5652D54260A37F8009091F5 /* PasscordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscordInput.swift; sourceTree = "<group>"; };
 		A5652D5B260DA3E5009091F5 /* InputStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStatus.swift; sourceTree = "<group>"; };
+		A5CCE6D5261A305A0012754C /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 				A5652D5B260DA3E5009091F5 /* InputStatus.swift */,
 				A51AA2CF259F5BC1007429DB /* Assets.xcassets */,
 				A5652D4D260A358D009091F5 /* NumberView.swift */,
+				A5CCE6D5261A305A0012754C /* TutorialView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -322,6 +326,7 @@
 			files = (
 				A51AA2F8259F5BC2007429DB /* ContentView.swift in Sources */,
 				A5652D5C260DA3E5009091F5 /* InputStatus.swift in Sources */,
+				A5CCE6D6261A305A0012754C /* TutorialView.swift in Sources */,
 				A5652D55260A37F8009091F5 /* PasscordInput.swift in Sources */,
 				A51AA2F6259F5BC2007429DB /* PasscordMagicApp.swift in Sources */,
 				A5652D4E260A358D009091F5 /* NumberView.swift in Sources */,
@@ -334,6 +339,7 @@
 			files = (
 				A51AA2F9259F5BC2007429DB /* ContentView.swift in Sources */,
 				A5652D5D260DA3E5009091F5 /* InputStatus.swift in Sources */,
+				A5CCE6D7261A305A0012754C /* TutorialView.swift in Sources */,
 				A5652D56260A37F8009091F5 /* PasscordInput.swift in Sources */,
 				A51AA2F7259F5BC2007429DB /* PasscordMagicApp.swift in Sources */,
 				A5652D4F260A358D009091F5 /* NumberView.swift in Sources */,

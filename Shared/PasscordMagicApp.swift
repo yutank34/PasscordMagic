@@ -11,7 +11,11 @@ import SwiftUI
 struct PasscordMagicApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if UserDefaults.standard.bool(forKey: "isStarted") {
+                ContentView()
+            } else {
+                TutorialView()
+            }
         }
     }
 }
