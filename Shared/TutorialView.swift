@@ -19,19 +19,19 @@ struct TutorialView: View {
     ]
     let images = [
         "none",
-        "none",
-        "none",
-        "none",
-        "none",
+        "tutorial-1",
+        "tutorial-2",
+        "tutorial-3",
+        "tutorial-4",
         "none"
     ]
     var body: some View {
-        VStack {
-            Text(titles[pageNum])
+        VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
             if images[pageNum] != "none" {
                 Image(images[pageNum])
             }
-            HStack {
+            Text(titles[pageNum])
+            HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
                 if pageNum > 0 {
                     Button(action: {
                         pageNum -= 1
