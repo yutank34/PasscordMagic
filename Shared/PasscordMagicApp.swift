@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct PasscordMagicApp: App {
+    @Environment(\.scenePhase) private var scenePhase
+    
     var body: some Scene {
         WindowGroup {
             if UserDefaults.standard.bool(forKey: "isStarted") {
@@ -17,5 +19,16 @@ struct PasscordMagicApp: App {
                 TutorialView()
             }
         }
+        .onChange(of: scenePhase) { scene in
+                    switch scene {
+                    case .active:
+                        print("scenePhase: active")
+                    case .inactive:
+                        print("scenePhase: inactive")
+                    case .background:
+                        print("scenePhase: background")
+                    @unknown default: break
+                    }
+                }
     }
 }
