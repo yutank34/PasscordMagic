@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct PasscordMagicApp: App {
+    // TODO: https://dev.classmethod.jp/articles/xcode12_change_appdelegate/
     @Environment(\.scenePhase) private var scenePhase
     
     var body: some Scene {
