@@ -47,6 +47,7 @@ struct TutorialView: View {
                     })
                 } else {
                     Button(action: {
+                        UserDefaults.standard.setValue(true, forKey: "isStarted")
                         TutorialView()
                     }, label: {
                         Text("はじめる")
