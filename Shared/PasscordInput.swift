@@ -47,7 +47,7 @@ struct PasscordInput: View {
                     }
                 }
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
             .background(Color.black)
             .foregroundColor(.white)
         }
