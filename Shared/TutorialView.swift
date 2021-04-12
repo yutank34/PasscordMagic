@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TutorialView: View {
+    @Binding var isStarted: Bool
     @State var pageNum = 0
     let titles = [
         "マジックのやり方",
@@ -48,7 +49,7 @@ struct TutorialView: View {
                 } else {
                     Button(action: {
                         UserDefaults.standard.setValue(true, forKey: "isStarted")
-                        TutorialView()
+                        isStarted = true
                     }, label: {
                         Text("はじめる")
                     })
@@ -59,7 +60,8 @@ struct TutorialView: View {
 }
 
 struct TutorialView_Previews: PreviewProvider {
+    @State static var isStarted = false
     static var previews: some View {
-        TutorialView()
+        TutorialView(isStarted: $isStarted)
     }
 }

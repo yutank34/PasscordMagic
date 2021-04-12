@@ -14,22 +14,7 @@ struct PasscordMagicApp: App {
     
     var body: some Scene {
         WindowGroup {
-            if UserDefaults.standard.bool(forKey: "isStarted") {
-                ContentView()
-            } else {
-                TutorialView()
-            }
+            RootView(isStarted: UserDefaults.standard.bool(forKey: "isStarted"))
         }
-        .onChange(of: scenePhase) { scene in
-                    switch scene {
-                    case .active:
-                        print("scenePhase: active")
-                    case .inactive:
-                        print("scenePhase: inactive")
-                    case .background:
-                        print("scenePhase: background")
-                    @unknown default: break
-                    }
-                }
     }
 }
