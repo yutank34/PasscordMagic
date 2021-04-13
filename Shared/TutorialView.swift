@@ -10,7 +10,7 @@ import SwiftUI
 struct TutorialView: View {
     @Binding var isStarted: Bool
     @State var pageNum = 0
-    let titles = [
+    let titles: [String] = [
         "マジックのやり方",
         "紙とペンを用意してください。",
         "「パスコードを変更します」と良い、パスコードを変更するふりをしてこのアプリを起動してください。",
@@ -18,7 +18,7 @@ struct TutorialView: View {
         "相手にパスコード入力画面を見せながら相手が書いた数字を入力してください。",
         "ホーム画面が表示されるので相手は自分の書いた番号でロックが解除されたと思います",
     ]
-    let images = [
+    let images: [String] = [
         "none",
         "tutorial-1",
         "tutorial-2",
@@ -27,9 +27,11 @@ struct TutorialView: View {
         "none"
     ]
     var body: some View {
-        VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
+        VStack(alignment: .center, spacing: 20) {
             if images[pageNum] != "none" {
                 Image(images[pageNum])
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
             }
             Text(titles[pageNum])
             HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
@@ -48,7 +50,7 @@ struct TutorialView: View {
                     })
                 } else {
                     Button(action: {
-                        UserDefaults.standard.setValue(true, forKey: "isStarted")
+                        UserDefaults.standard.set(true, forKey: "isStarted")
                         isStarted = true
                     }, label: {
                         Text("はじめる")
@@ -56,6 +58,7 @@ struct TutorialView: View {
                 }
             }
         }
+        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
     }
 }
 
