@@ -28,12 +28,14 @@ struct TutorialView: View {
     ]
     var body: some View {
         VStack(alignment: .center, spacing: 20) {
+            Spacer()
             if images[pageNum] != "none" {
                 Image(images[pageNum])
                     .resizable()
                     .aspectRatio(contentMode: .fit)
             }
             Text(titles[pageNum])
+            Spacer()
             HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
                 if pageNum > 0 {
                     Button(action: {
@@ -58,7 +60,8 @@ struct TutorialView: View {
                 }
             }
         }
-        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .bottom)
+        .padding(.bottom, 100)
     }
 }
 
