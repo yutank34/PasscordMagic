@@ -61,6 +61,7 @@ struct TutorialView: View {
             }
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .bottom)
+        .padding(.horizontal, 20)
         .padding(.bottom, 100)
     }
 }
