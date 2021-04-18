@@ -41,21 +41,21 @@ struct TutorialView: View {
                     Button(action: {
                         pageNum -= 1
                     }, label: {
-                        Text("戻る")
+                        Text(NSLocalizedString("Back", comment: ""))
                     })
                 }
                 if titles.count > pageNum + 1 {
                     Button(action: {
                         pageNum += 1
                     }, label: {
-                        Text("次へ")
+                        Text(NSLocalizedString("Next", comment: ""))
                     })
                 } else {
                     Button(action: {
                         UserDefaults.standard.set(true, forKey: "isStarted")
                         isStarted = true
                     }, label: {
-                        Text("はじめる")
+                        Text(NSLocalizedString("Start", comment: ""))
                     })
                 }
             }
