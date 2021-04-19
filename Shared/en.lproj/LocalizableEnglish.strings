@@ -9,3 +9,9 @@
 "Next" = "Next";
 "Back" = "Back";
 "Start" = "Start";
+"Tutorial0" = "Hot to Magic";
+"Tutorial1" = "Please have a piece of paper and a pen.";
+"Tutorial2" = "Tell the other party \"I will change my passcode\" and pretend to change my passcode to launch this app.";
+"Tutorial3" = "Tell the other person, \"Write your favorite 4 letters on a piece of paper. Predict the numbers you will write and have already set them in your passcode.\"";
+"Tutorial4" = "Please enter the number written by the other party while showing the passcode input screen to the other party.";
+"Tutorial5" = "Since the home screen is displayed, the other party thinks that the lock was unlocked with the number you wrote";
