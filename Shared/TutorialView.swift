@@ -11,12 +11,12 @@ struct TutorialView: View {
     @Binding var isStarted: Bool
     @State var pageNum = 0
     let titles: [String] = [
-        "手品のやり方",
-        "紙とペンを用意してください。",
-        "「パスコードを変更します」と良い、パスコードを変更するふりをしてこのアプリを起動してください。",
-        "「好きな4文字を紙に書いてください。あなたが書く数字を予測してすでにパスコードに設定しています」と言ってください。",
-        "相手にパスコード入力画面を見せながら相手が書いた数字を入力してください。",
-        "ホーム画面が表示されるので相手は自分の書いた番号でロックが解除されたと思います",
+        NSLocalizedString("Tutorial0", comment: ""),
+        NSLocalizedString("Tutorial1", comment: ""),
+        NSLocalizedString("Tutorial2", comment: ""),
+        NSLocalizedString("Tutorial3", comment: ""),
+        NSLocalizedString("Tutorial4", comment: ""),
+        NSLocalizedString("Tutorial5", comment: "")
     ]
     let images: [String] = [
         "none",
@@ -34,7 +34,7 @@ struct TutorialView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
             }
-            Text(titles[pageNum])
+            Text(NSLocalizedString("Tutorial\(pageNum)", comment: ""))
             Spacer()
             HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
                 if pageNum > 0 {
