@@ -6,6 +6,9 @@
   
 */
 
+"Unlock" = "Press home to unlock";
+"DateFormat" = "M/d EEE";
+"Locale" = "en_US";
 "Next" = "Next";
 "Back" = "Back";
 "Start" = "Start";
