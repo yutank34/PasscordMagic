@@ -32,9 +32,12 @@ struct ContentView: View {
                     PasscordInput()
                         .environmentObject(InputsManager())
                 }
-                Text("● ◇")
-                    .font(.system(size: 10))
-                    .padding(.bottom, 2)
+                HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 6) {
+                    Text("●")
+                    Text("■")
+                        .foregroundColor(.gray)
+                }
+                .font(.system(size: 12))
             }
             .foregroundColor(.white)
             .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
