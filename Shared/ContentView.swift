@@ -45,14 +45,14 @@ struct ContentView: View {
         }
     }
     
-    func getDate() -> String {
+    private func getDate() -> String {
         let f = DateFormatter()
         f.dateFormat = NSLocalizedString("DateFormat", comment: "")
         f.locale = Locale(identifier: NSLocalizedString("Locale", comment: ""))
         return f.string(from: now)
     }
     
-    func getTime() -> String {
+    private func getTime() -> String {
         let f = DateFormatter()
         f.dateFormat = NSLocalizedString("hh:mm", comment: "")
         f.locale = Locale(identifier: NSLocalizedString("Locale", comment: ""))
