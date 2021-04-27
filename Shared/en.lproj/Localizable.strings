@@ -6,6 +6,7 @@
   
 */
 
+"InputPasscord" = "Touch ID or Enter Passcode";
 "Unlock" = "Press home to unlock";
 "DateFormat" = "M/d EEE";
 "Locale" = "en_US";
@@ -16,5 +17,5 @@
 "Tutorial1" = "Please have a piece of paper and a pen.";
 "Tutorial2" = "Tell the other party \"I will change my passcode\" and pretend to change my passcode to launch this app.";
 "Tutorial3" = "Tell the other person, \"Write your favorite 4 letters on a piece of paper. Predict the numbers you will write and have already set them in your passcode.\"";
-"Tutorial4" = "Please enter the number written by the other party while showing the passcode input screen to the other party.";
+"Tutorial4" = "Enter the number written on the paper while showing the passcode input screen to the other party.";
 "Tutorial5" = "Since the home screen is displayed, the other party thinks that the lock was unlocked with the number you wrote";

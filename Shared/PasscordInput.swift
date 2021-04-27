@@ -14,7 +14,7 @@ struct PasscordInput: View {
             exit(0)
         } else {
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 24) {
-                Text("Touch ID or Enter Passcode")
+                Text(NSLocalizedString("InputPasscord", comment: ""))
                 InputStatus()
                 VStack {
                     HStack {

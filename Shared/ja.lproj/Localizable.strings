@@ -6,6 +6,7 @@
   
 */
 
+"InputPasscord" = "Touch ID またはパスコードを入力";
 "Unlock" = "ホームボタンを押してロックを解除";
 "DateFormat" = "M月d日 EEE曜日";
 "Locale" = "ja_JP";
