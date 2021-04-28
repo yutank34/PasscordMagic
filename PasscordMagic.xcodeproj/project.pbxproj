@@ -8,27 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A5180FEE262BCF5500FBC28B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5180FF1262BCF5500FBC28B /* Localizable.strings */; };
-		A5180FEF262BCF5500FBC28B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5180FF1262BCF5500FBC28B /* Localizable.strings */; };
 		A51AA2E9259F5BC2007429DB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AA2E8259F5BC2007429DB /* Tests_iOS.swift */; };
-		A51AA2F4259F5BC2007429DB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AA2F3259F5BC2007429DB /* Tests_macOS.swift */; };
 		A51AA2F6259F5BC2007429DB /* PasscordMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AA2CD259F5BC0007429DB /* PasscordMagicApp.swift */; };
-		A51AA2F7259F5BC2007429DB /* PasscordMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AA2CD259F5BC0007429DB /* PasscordMagicApp.swift */; };
 		A51AA2F8259F5BC2007429DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AA2CE259F5BC0007429DB /* ContentView.swift */; };
-		A51AA2F9259F5BC2007429DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AA2CE259F5BC0007429DB /* ContentView.swift */; };
 		A51AA2FA259F5BC2007429DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51AA2CF259F5BC1007429DB /* Assets.xcassets */; };
-		A51AA2FB259F5BC2007429DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51AA2CF259F5BC1007429DB /* Assets.xcassets */; };
 		A5652D4E260A358D009091F5 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D4D260A358D009091F5 /* NumberView.swift */; };
-		A5652D4F260A358D009091F5 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D4D260A358D009091F5 /* NumberView.swift */; };
 		A5652D55260A37F8009091F5 /* PasscordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D54260A37F8009091F5 /* PasscordInput.swift */; };
-		A5652D56260A37F8009091F5 /* PasscordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D54260A37F8009091F5 /* PasscordInput.swift */; };
 		A5652D5C260DA3E5009091F5 /* InputStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D5B260DA3E5009091F5 /* InputStatus.swift */; };
-		A5652D5D260DA3E5009091F5 /* InputStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5652D5B260DA3E5009091F5 /* InputStatus.swift */; };
 		A5CCE6D6261A305A0012754C /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6D5261A305A0012754C /* TutorialView.swift */; };
-		A5CCE6D7261A305A0012754C /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6D5261A305A0012754C /* TutorialView.swift */; };
 		A5CCE6DD261DFF350012754C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6DC261DFF350012754C /* SceneDelegate.swift */; };
-		A5CCE6DE261DFF350012754C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6DC261DFF350012754C /* SceneDelegate.swift */; };
 		A5CCE6E42624913B0012754C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6E32624913B0012754C /* RootView.swift */; };
-		A5CCE6E52624913B0012754C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCE6E32624913B0012754C /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +27,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A51AA2D3259F5BC2007429DB;
 			remoteInfo = "PasscordMagic (iOS)";
-		};
-		A51AA2F0259F5BC2007429DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A51AA2C8259F5BBF007429DB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A51AA2DB259F5BC2007429DB;
-			remoteInfo = "PasscordMagic (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,15 +38,9 @@
 		A51AA2CF259F5BC1007429DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51AA2D4259F5BC2007429DB /* PasscordMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasscordMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51AA2D7259F5BC2007429DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A51AA2DC259F5BC2007429DB /* PasscordMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasscordMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A51AA2DE259F5BC2007429DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A51AA2DF259F5BC2007429DB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		A51AA2E4259F5BC2007429DB /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51AA2E8259F5BC2007429DB /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		A51AA2EA259F5BC2007429DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A51AA2EF259F5BC2007429DB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A51AA2F3259F5BC2007429DB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		A51AA2F5259F5BC2007429DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5652D4D260A358D009091F5 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 		A5652D54260A37F8009091F5 /* PasscordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscordInput.swift; sourceTree = "<group>"; };
 		A5652D5B260DA3E5009091F5 /* InputStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStatus.swift; sourceTree = "<group>"; };
@@ -81,21 +57,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51AA2D9259F5BC2007429DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A51AA2E1259F5BC2007429DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A51AA2EC259F5BC2007429DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -110,9 +72,7 @@
 			children = (
 				A51AA2CC259F5BC0007429DB /* Shared */,
 				A51AA2D6259F5BC2007429DB /* iOS */,
-				A51AA2DD259F5BC2007429DB /* macOS */,
 				A51AA2E7259F5BC2007429DB /* Tests iOS */,
-				A51AA2F2259F5BC2007429DB /* Tests macOS */,
 				A51AA2D5259F5BC2007429DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,9 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A51AA2D4259F5BC2007429DB /* PasscordMagic.app */,
-				A51AA2DC259F5BC2007429DB /* PasscordMagic.app */,
 				A51AA2E4259F5BC2007429DB /* Tests iOS.xctest */,
-				A51AA2EF259F5BC2007429DB /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,15 +111,6 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		A51AA2DD259F5BC2007429DB /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				A51AA2DE259F5BC2007429DB /* Info.plist */,
-				A51AA2DF259F5BC2007429DB /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
 		A51AA2E7259F5BC2007429DB /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,15 +118,6 @@
 				A51AA2EA259F5BC2007429DB /* Info.plist */,
 			);
 			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		A51AA2F2259F5BC2007429DB /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				A51AA2F3259F5BC2007429DB /* Tests_macOS.swift */,
-				A51AA2F5259F5BC2007429DB /* Info.plist */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,23 +140,6 @@
 			productReference = A51AA2D4259F5BC2007429DB /* PasscordMagic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A51AA2DB259F5BC2007429DB /* PasscordMagic (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A51AA301259F5BC2007429DB /* Build configuration list for PBXNativeTarget "PasscordMagic (macOS)" */;
-			buildPhases = (
-				A51AA2D8259F5BC2007429DB /* Sources */,
-				A51AA2D9259F5BC2007429DB /* Frameworks */,
-				A51AA2DA259F5BC2007429DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PasscordMagic (macOS)";
-			productName = "PasscordMagic (macOS)";
-			productReference = A51AA2DC259F5BC2007429DB /* PasscordMagic.app */;
-			productType = "com.apple.product-type.application";
-		};
 		A51AA2E3259F5BC2007429DB /* Tests iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A51AA304259F5BC2007429DB /* Build configuration list for PBXNativeTarget "Tests iOS" */;
@@ -235,24 +158,6 @@
 			productReference = A51AA2E4259F5BC2007429DB /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A51AA2EE259F5BC2007429DB /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A51AA307259F5BC2007429DB /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				A51AA2EB259F5BC2007429DB /* Sources */,
-				A51AA2EC259F5BC2007429DB /* Frameworks */,
-				A51AA2ED259F5BC2007429DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A51AA2F1259F5BC2007429DB /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = A51AA2EF259F5BC2007429DB /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,16 +170,9 @@
 					A51AA2D3259F5BC2007429DB = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					A51AA2DB259F5BC2007429DB = {
-						CreatedOnToolsVersion = 12.3;
-					};
 					A51AA2E3259F5BC2007429DB = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = A51AA2D3259F5BC2007429DB;
-					};
-					A51AA2EE259F5BC2007429DB = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = A51AA2DB259F5BC2007429DB;
 					};
 				};
 			};
@@ -293,9 +191,7 @@
 			projectRoot = "";
 			targets = (
 				A51AA2D3259F5BC2007429DB /* PasscordMagic (iOS) */,
-				A51AA2DB259F5BC2007429DB /* PasscordMagic (macOS) */,
 				A51AA2E3259F5BC2007429DB /* Tests iOS */,
-				A51AA2EE259F5BC2007429DB /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -310,23 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51AA2DA259F5BC2007429DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A51AA2FB259F5BC2007429DB /* Assets.xcassets in Resources */,
-				A5180FEF262BCF5500FBC28B /* Localizable.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A51AA2E2259F5BC2007429DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A51AA2ED259F5BC2007429DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,34 +231,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51AA2D8259F5BC2007429DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5CCE6E52624913B0012754C /* RootView.swift in Sources */,
-				A51AA2F9259F5BC2007429DB /* ContentView.swift in Sources */,
-				A5CCE6DE261DFF350012754C /* SceneDelegate.swift in Sources */,
-				A5652D5D260DA3E5009091F5 /* InputStatus.swift in Sources */,
-				A5CCE6D7261A305A0012754C /* TutorialView.swift in Sources */,
-				A5652D56260A37F8009091F5 /* PasscordInput.swift in Sources */,
-				A51AA2F7259F5BC2007429DB /* PasscordMagicApp.swift in Sources */,
-				A5652D4F260A358D009091F5 /* NumberView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A51AA2E0259F5BC2007429DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A51AA2E9259F5BC2007429DB /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A51AA2EB259F5BC2007429DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A51AA2F4259F5BC2007429DB /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,11 +246,6 @@
 			isa = PBXTargetDependency;
 			target = A51AA2D3259F5BC2007429DB /* PasscordMagic (iOS) */;
 			targetProxy = A51AA2E5259F5BC2007429DB /* PBXContainerItemProxy */;
-		};
-		A51AA2F1259F5BC2007429DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A51AA2DB259F5BC2007429DB /* PasscordMagic (macOS) */;
-			targetProxy = A51AA2F0259F5BC2007429DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -462,6 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -516,6 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -568,50 +422,6 @@
 			};
 			name = Release;
 		};
-		A51AA302259F5BC2007429DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yutank.PasscordMagic;
-				PRODUCT_NAME = PasscordMagic;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		A51AA303259F5BC2007429DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yutank.PasscordMagic;
-				PRODUCT_NAME = PasscordMagic;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		A51AA305259F5BC2007429DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -655,48 +465,6 @@
 			};
 			name = Release;
 		};
-		A51AA308259F5BC2007429DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yutank.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "PasscordMagic (macOS)";
-			};
-			name = Debug;
-		};
-		A51AA309259F5BC2007429DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yutank.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "PasscordMagic (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -718,29 +486,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A51AA301259F5BC2007429DB /* Build configuration list for PBXNativeTarget "PasscordMagic (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A51AA302259F5BC2007429DB /* Debug */,
-				A51AA303259F5BC2007429DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A51AA304259F5BC2007429DB /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A51AA305259F5BC2007429DB /* Debug */,
 				A51AA306259F5BC2007429DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A51AA307259F5BC2007429DB /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A51AA308259F5BC2007429DB /* Debug */,
-				A51AA309259F5BC2007429DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
